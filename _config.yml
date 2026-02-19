@@ -1,10 +1,11 @@
-title: Arc Anonymous Portfolio
+title: Arc's Portfolio
 description: An anonymous portfolio that showcases projects from this github account
 theme: minima
 
-author:
-  name: Arc
-  email: arc.onlineemail@gmail.com
+author: Arc
 
 minima:
   skin: classic
+  social_links:
+    - { platform: github, user_url: "https://github.com/arcburnergit" }
+    - { platform: email, user_url: "mailto:arc.onlineemail@gmail.com" }
