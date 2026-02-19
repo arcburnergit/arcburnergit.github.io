@@ -1,0 +1,119 @@
+---
+layout: home
+---
+<style>
+.wrapper {
+  max-width: 80%;
+  padding: 0 2rem;
+}
+
+.projects {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: nowrap;
+  margin: 2rem 0;
+}
+
+.project-card {
+  flex: 1;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 1.5rem;
+  width: calc(33.333% - 1rem);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+}
+
+.project-card h3 {
+  margin-top: 0;
+}
+
+.project-card p {
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.project-card .tags {
+  display: flex;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+  margin: 0.8rem 0;
+}
+
+.project-card .tag {
+  background: #f0f0f0;
+  border-radius: 20px;
+  padding: 0.2rem 0.6rem;
+  font-size: 0.8rem;
+  color: #444;
+}
+
+.project-card a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.project-card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-top: 1rem;
+}
+
+
+</style>
+
+<h2>My Projects</h2>
+
+<div class="projects">
+  <a href="https://github.com/arcburnergit/FTL-Old-Guard" style="text-decoration: none; color: inherit; font-weight: normal;">
+    <div class="project-card">
+      <h3>FTL Turret Mod</h3>
+      <p>Implements a turrets that tracks and predicts targets using 2d kinematics to ensure proper interception by the projectiles fired from turrets.</p>
+      <div class="tags">
+        <span class="tag">Lua</span>
+        <span class="tag">xml</span>
+      </div>
+      <a href="https://github.com/arcburnergit/FTL-Old-Guard">View on GitHub →</a>
+      <img src="/assets/images/turret_mod_cropped.gif" alt="Turret Mod preview">
+      <a href="https://www.youtube.com/watch?v=VzHr17JJ4-I">Video covering this mod.</a>
+    </div>
+  </a>
+
+  <a href="https://github.com/arcburnergit/FTL-Trading-System" style="text-decoration: none; color: inherit; font-weight: normal;">
+    <div class="project-card">
+      <h3>FTL Trading System</h3>
+      <p>Adds a gamified economy to FTL, simulates various market factors that the player can track and capitilize on to make money by carrying goods between different locations.</p>
+      <div class="tags">
+        <span class="tag">lua</span>
+        <span class="tag">xml</span>
+      </div>
+      <a href="https://github.com/arcburnergit/FTL-Trading-System">View on GitHub →</a>
+      <img src="/assets/images/trading_mod.png" alt="Trading Mod preview">
+      <a href="https://www.youtube.com/watch?v=cFdkEDrZfAA">Video including this mod.</a>
+    </div>
+  </a>
+
+  <a href="https://github.com/arcburnergit/Fishing-Than-Light" style="text-decoration: none; color: inherit; font-weight: normal;">
+    <div class="project-card">
+      <h3>FTL Fishing Minigame</h3>
+      <p>Implements a fishing minigame integrated into FTL's gameplay loop that rewards the player with boosts for proper multi-tasking during combat.</p>
+      <div class="tags">
+        <span class="tag">lua</span>
+        <span class="tag">xml</span>
+      </div>
+      <a href="https://github.com/arcburnergit/Fishing-Than-Light">View on GitHub →</a>
+      <img src="/assets/images/fishing_mod.gif" alt="Fishing Mod preview">
+      <a href="https://www.youtube.com/watch?v=kqLjWDBelrc">Video covering this mod.</a>
+    </div>
+  </a>
+
+</div>
